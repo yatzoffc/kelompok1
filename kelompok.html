@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kokurikuler kelas IX C - website by dayatt</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f5f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #f8bbd0, #ffccbc);
+            padding: 2rem;
+            text-align: center;
+            color: #5d4037;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* Introduction */
+        .intro {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        /* Sections */
+        .section {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            color: #e91e63;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #ffccbc;
+        }
+        
+        /* Ingredients and Steps */
+        .ingredient-list, .step-list {
+            list-style-type: none;
+        }
+        
+        .ingredient-list li, .step-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #f5f5f5;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .step-number {
+            background-color: #e91e63;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        
+        /* Gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 0.75rem;
+            text-align: center;
+        }
+        
+        /* Tips Section */
+        .tips {
+            background-color: #fff8e1;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+        }
+        
+        .tips-title {
+            color: #ff8f00;
+            margin-bottom: 1rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #5d4037;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+            
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Makanan dengan potensi lingkungan</h1>
+        <p class="subtitle">No plastic,go green.</p>
+    </header>
+    
+    </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/1lq1ik.jpg
+                      "://placeholder-image-service.onrender.com/image/400x300?prompt=Slice%20of%20chocolate%20brownie%20with%20a%20fudgy%20texture%20on%20a%20plate&id=kelompok1" alt="Kelompok 1">
+                    <div class="gallery-caption">Kelompok 1</div>
+                </div>
+            </div>
+        </section>
+  
+        <section class="section">
+            <h2 class="section-title">Anggota Kelompok 1</h2>
+            <ul class="ingredient-list">
+                <li>👤 Rajla Ramadhani</li>
+                <li>👤 Hidayattullah</li>
+                <li>👤 Suci Lestari</li>
+                <li>👤 Refky Fransiska</li>
+                <li>👤 Hayrul Ibad</li>
+                <li>👤 Febri Dwi Astuti</li>
+                <li>👤 A.Yapi Yaskur</li>
+                <li>👤 Hilda Romadona</li>
+            </ul>
+        </section>
+        
+        <!-- Music Player -->
+  <div class="music-player">
+    <p>🎶 Musik Latar</p>
+    <audio id="bgMusic" controls autoplay loop>
+      <source src="https://files.catbox.moe/zyts0x.m4a" type="audio/mpeg">
+      Browser Anda tidak mendukung audio player.
+    </audio>
+  </div>
+    
+    <div class="container">
+        <section class="intro">
+            <h2>Latar belakang</h2>
+            <p>Lemper adalah salah satu makanan tradisional khas Indonesia yang cukup populer. Makanan ini terbuat dari ketan yang dikukus dan biasanya diberi isi berupa daging ayam atau abon yang dibumbui gurih. Setelah diisi, ketan digulung lalu dibungkus dengan daun pisang sehingga aromanya wangi dan lebih tahan lama..</p>
+        </section>
+        
+                <section class="section">
+            <h2 class="section-title">gizi & manfaat lemper</h2>
+            <h3>Gizi:</h3>
+            <ul class="ingredient-list">
+                <li>Energi</li>
+                <li>Karbohidrat</li>
+                <li>Protein</li>
+                <li>Lemak</li>
+                <li>Serat</li>
+                <li>Vitamin</li>
+                <li>Mineral</li>
+            </ul>
+            
+            <h3>manfaat:</h3>
+            <ul class="ingredient-list">
+                <li>memberi energi</li>
+                <li>menjaga rasa kenyang lebih lama</li>
+                <li>mendukung pembentukan otot & jaringan</li>
+                <li>menambah asupan vitamin & mineral</li>
+            </ul>
+        </section>
+        
+        <div class="gallery-item" style="max-width:1080px; margin:auto; text-align:center;">
+  <img src="https://files.catbox.moe/h98hi6.jpg" 
+       alt="slogan" 
+       width="1080" height="1920"
+       style="width:100%; height:auto; border:1px solid #ccc; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.25);" />
+  <div class="gallery-caption" style="margin-top:8px; font-size:16px; color:#333; font-weight:500;">
+    slogan
+  </div>
+</div>
+        
+        <div class="gallery-item">
+  <img src="https://files.catbox.moe/g69h5x.jpg?text=Poster+Lemper" 
+       alt="Poster Lemper Ayam" 
+       width="1080" 
+       height="1920"
+       style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.2);" />
+  <div class="gallery-caption">
+    Poster penjualan
+  </div>
+</div>
+        
+        <section class="section">
+            <h2 class="section-title">Tujuan Pembuatan</h2>
+            <p>
+
+Membuat makanan tradisional Indonesia berupa lemper (ketan berisi ayam/abon).
+
+Melestarikan makanan khas nusantara.
+
+Melatih keterampilan memasak dan membungkus makanan tradisional.:</p>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Bahan-bahan</h2>
+            <h3>Bahan Utama:</h3>
+            <ul class="ingredient-list">
+                <li>500 gram beras ketan</li>
+                <li>200 ml santan</li>
+                <li>2 lembar daun salam</li>
+                <li>1 batang serai</li>
+                <li>1 sdt garam</li>
+            </ul>
+            
+            <h3>isi (ayam suwir):</h3>
+            <ul class="ingredient-list">
+                <li>250 gram daging ayam filent</li>
+                <li>3 siung bawang putih</li>
+                <li>5 siung bawang merah</li>
+                <li>3 butir kemiri</li>
+                <li>2 lembar daun jeruk</li>
+                <li>1 batang serah</li>
+                <li>100 ml santan</li>
+                <li>garam,gula,merica</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Alat yang Diperlukan</h2>
+            <ul class="ingredient-list">
+                <li>kukusan</li>
+                <li>wajan dan spatula</li>
+                <li>pisau dan talenan</li>
+                <li>sendok</li>
+                <li>nampan / wadah</li>
+                <li>lidi</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Langkah-langkah Pembuatan</h2>
+            <ol class="step-list">
+                <li>
+                    <div class="step-number">1</div>
+                    <div>Kukus beras ketan ±15 menit.
+
+Masak santan bersama daun salam, serai, dan garam hingga mendidih.
+
+Masukkan ketan setengah matang ke dalam santan, aduk rata sampai meresap.
+
+Kukus kembali hingga matang dan pulen.
+.</div>
+                </li>
+                <li>
+                    <div class="step-number">2</div>
+                    <div>Haluskan bawang putih, bawang merah, kemiri.
+
+Tumis bumbu halus hingga harum, masukkan daun jeruk dan serai.
+
+Tambahkan ayam suwir, beri santan, garam, gula, dan merica. Masak hingga kering.
+.</div>
+                </li>
+                <li>
+                    <div class="step-number">3</div>
+                    <div>Ambil selembar daun pisang, letakkan ketan secukupnya.
+
+Pipihkan, beri isi ayam di tengah, lalu tutup lagi dengan ketan.
+
+Gulung daun pisang, padatkan, dan semat
+
+ujungnya dengan lidi..</div>
+                </li>
+                <li>
+                    <div class="step-number">4</div>
+                    <div>Kukus lemper yang sudah dibungkus ±10 menit agar lebih awet dan wangi.</div>
+                </li>
+                <li>
+                    <div class="step-number">5</div>
+                    <div>Lemper siap dihidangkan sebagai camilan atau teman minum teh/kopi.</div>
+                </li>
+            </ol>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Gambar Proses Pembuatan</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/8hmy7a.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Membeli beras ketan</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/09xfkq.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Membeli santan kelapa</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/z7e7e1.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Membeli ayam filent</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/doe5c6.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Membeli bumbu-bumbu</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/lrolwn.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">cuci beras ketan</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/w4o2u7.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">cuci ayam</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/61qi55.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Rebus santan</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/i9do61.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">campur santan dengan ketan</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/elejfu.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Suwir ayam yang sudah direbus</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/j937wz.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Masak ayam yang sudah di suwir</div>
+                </div>
+                <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/zid0fw.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Dark%20chocolate%20and%20butter%20melting%20in%20a%20double%20boiler%20with%20steam&id=brownies1" alt="Coklat dan mentega yang dilelehkan dengan metode tim">
+                    <div class="gallery-caption">Campurkan ketan dengan ayam suwir</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/fcw1i8.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Mixing%20bowl%20with%20eggs%20and%20sugar%20being%20whisked%20until%20foamy&id=brownies2" alt="Mengocok telur dan gula hingga berbusa">
+                    <div class="gallery-caption">Bentuk ketan hingga seperti ini</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/971weg.jpg"://placeholder-image-service.onrender.com/image/400x300?prompt=Combining%20melted%20chocolate%20mixture%20with%20egg%20mixture%20in%20a%20bowl&id=brownies3" alt="Mencampur adonan coklat dengan kocokan telur">
+                    <div class="gallery-caption">Bungkus dengan daun pisang,dan lemper pun siap dihidangkan</div>
+              </div>
+        </section>
+        
+        <div class="gallery-item" style="max-width:800px; margin:auto; text-align:center;">
+  <img src="https://files.catbox.moe/63wgjw.jpg?text=Diagram+Biaya+vs+Penjualan" 
+       alt="Diagram Batang" 
+       width="800" height="800"
+       style="width:100%; height:auto; border:1px solid #ccc; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.2);" />
+  <div class="gallery-caption" style="margin-top:8px; font-size:14px; color:#333;">
+    Diagram Batang
+  </div>
+</div>
+                <section class="section">
+            <h2 class="section-title">Keuntungan-Kerugian</h2>
+            <p>
+
+Total belanja = 120.000
+
+Total lemper = 30 biji
+
+1 lemper = 2.500
+
+2.500 × 30  =75.000.   ↗️Keuntungan = Rp.0 ↘️Kerugian = Rp.-45.000:</p>
+            </ul>
+        </section>
+    
+    <footer>
+        <p>&copy; 2025 Makanan dengan potensi lingkungan.</p>
+        <p>Kelompok 1 IX C.</p>
+    </footer>
+</body>
+</html>
